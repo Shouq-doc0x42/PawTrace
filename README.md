@@ -21,7 +21,7 @@ PawTrace is a Python GUI application that records mouse movement and visualizes 
 
 ---
 ##Demo
-![PawTrace Demo]("PawTrace/Screenshot 2026-03-14 062333.png")
+![PawTrace Demo](PawTrace/Screenshot%202026-03-14%20062333.png)
 
 
 ---
