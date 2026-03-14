@@ -1,66 +1,62 @@
-🐾 PawTrace
+# 🐾 PawTrace
 
-Mouse Movement Recorder & Visualization Tool
+**Mouse Movement Recorder & Visualization Tool**
+
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 PawTrace is a Python GUI application that records mouse movement and visualizes it through an animated replay and trajectory graph. It allows users to capture cursor behavior, replay it visually, and export the movement data for later analysis.
 
-✨ Features
+---
 
-Record real-time mouse movement
+## Features
 
-Animated replay of cursor movement
+- Record real-time mouse movement
+- Replay cursor movement with animation
+- Export recordings to JSON
+- Load previous recordings
+- Generate a movement trajectory graph
+- Export visualization as an image
 
-Export recordings to JSON
+---
 
-Load previous recordings
+## Requirements
 
-Generate a movement trajectory graph
-
-Export visualization as an image
-
-🛠 Requirements
-
-Python 3.11
-
-pip
+- Python 3.11
+- pip
 
 Libraries used:
 
-pynput
+- pynput
+- pygame
+- matplotlib
+- tkinter (included with Python)
 
-pygame
+---
 
-matplotlib
-
-tkinter (included with Python)
-
-📦 Installation
+## Installation
 
 Clone the repository:
 
+```bash
 git clone https://github.com/YOUR_USERNAME/PawTrace.git
 cd PawTrace
 
 Install dependencies:
 
 pip install pynput pygame matplotlib
-▶️ Run the Application
+Run the Application
 python PawTrace.py
 
 The graphical interface will open and allow you to record and replay mouse movement.
 
-📊 Output
+Output
 
-Mouse recordings are stored as JSON:
+Mouse recordings are stored in JSON format:
 
 [x_position, y_position, timestamp]
 
-The visualization graph is exported as:
+The movement visualization is exported as:
 
 pawtrace_result.png
-📁 Project Structure
-PawTrace
-│
-├── PawTrace.py
-├── requirements.txt
-└── README.md
