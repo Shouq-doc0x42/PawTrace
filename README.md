@@ -20,7 +20,11 @@ PawTrace is a Python GUI application that records mouse movement and visualizes 
 - Export visualization as an image
 
 ---
+##Demo
+![PawTrace Demo](PawTrace/Screenshot 2026-03-14 062333.png)
 
+
+---
 ## Requirements
 
 - Python 3.11
