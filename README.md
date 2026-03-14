@@ -42,12 +42,14 @@ Clone the repository:
 ```bash
 git clone https://github.com/YOUR_USERNAME/PawTrace.git
 cd PawTrace
+```
 
 Install dependencies:
-
+```bash
 pip install pynput pygame matplotlib
 Run the Application
 python PawTrace.py
+```
 
 The graphical interface will open and allow you to record and replay mouse movement.
 
@@ -58,5 +60,6 @@ Mouse recordings are stored in JSON format:
 [x_position, y_position, timestamp]
 
 The movement visualization is exported as:
-
+```bash
 pawtrace_result.png
+```
