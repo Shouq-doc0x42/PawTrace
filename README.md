@@ -61,9 +61,12 @@ Output
 
 Mouse recordings are stored in JSON format:
 
+```bash
 [x_position, y_position, timestamp]
+```
 
 The movement visualization is exported as:
+
 ```bash
 pawtrace_result.png
 ```
