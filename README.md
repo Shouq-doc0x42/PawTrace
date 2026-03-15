@@ -99,10 +99,14 @@ After replay, PawTrace generates a movement graph showing:
 To support forensic reliability, PawTrace automatically generates
 hashes.
 
-  Artifact       Integrity
-  -------------- -----------
-  JSON Dataset   SHA256
-  Graph Image    SHA256
+  <div align="center">
+  
+| Artifact | Integrity |
+|------------|---------|
+| JSON Dataset | SHA256 |
+| Graph Image | SHA256 |
+
+</div>
 
 This ensures exported data has **not been modified**.
 
