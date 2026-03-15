@@ -44,7 +44,7 @@ Libraries used:
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/PawTrace.git
+git clone https://github.com/shouq-docx042/PawTrace.git
 cd PawTrace
 ```
 
