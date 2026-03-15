@@ -256,9 +256,9 @@ Interests:
 
 If you find PawTrace useful:
 
-⭐ Star the repository
-🍴 Fork the project
-🛠 Contribute improvements
+⭐ Star the repository\
+🍴 Fork the project\
+🛠 Contribute improvements\
 
 ------------------------------------------------------------------------
 
