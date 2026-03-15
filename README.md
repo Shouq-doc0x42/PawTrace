@@ -266,6 +266,7 @@ If you find PawTrace useful:
 
 ------------------------------------------------------------------------
 <div align="center">
+  
 ## 🐾 PawTrace
 
 *"Every movement tells a story."*
