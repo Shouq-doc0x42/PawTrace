@@ -1,0 +1,271 @@
+# 🐾 PawTrace
+
+### Behavioral Mouse Movement Recorder & Analysis Tool
+
+![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Status-Active-success.svg)
+
+------------------------------------------------------------------------
+
+## 🧠 Overview
+
+**PawTrace** is a behavioral analysis tool that records mouse movement
+patterns and transforms them into visual, measurable, and reportable
+digital evidence.
+
+The tool captures cursor activity, analyzes movement behavior, and
+generates structured outputs including:
+
+-   📊 Movement analytics\
+-   🎬 Replay visualization\
+-   🧾 Forensic-style PDF reports\
+-   🔐 Evidence integrity hashes (SHA256)
+
+This makes PawTrace useful for:
+
+-   Behavioral analysis
+-   Bot vs human interaction research
+-   Digital forensics demonstrations
+-   Security research
+-   Human-computer interaction studies
+
+------------------------------------------------------------------------
+
+## ✨ Key Features
+
+### 🎥 Mouse Behavior Recording
+
+Capture cursor movement with high precision.
+
+-   Records **X/Y coordinates**
+-   Captures **timestamps**
+-   Stores full movement path
+-   High sampling rate (\~5ms)
+
+------------------------------------------------------------------------
+
+### 📊 Movement Analysis
+
+PawTrace automatically calculates behavioral metrics:
+
+-   Total movement distance
+-   Average cursor speed
+-   Maximum speed detected
+-   Recording duration
+-   Number of captured points
+
+These metrics help analyze **human vs automated cursor behavior**.
+
+------------------------------------------------------------------------
+
+### 🎬 Visual Replay Engine
+
+Recreate the exact mouse movement session using animation.
+
+Features:
+
+-   Real-time replay
+-   Animated movement trail
+-   Start / End markers
+-   Path reconstruction
+
+------------------------------------------------------------------------
+
+### 📈 Path Visualization
+
+After replay, PawTrace generates a movement graph showing:
+
+-   Cursor trajectory
+-   Start & End positions
+-   Coordinate grid
+-   Screen mapping
+
+------------------------------------------------------------------------
+
+### 🔐 Evidence Integrity (SHA256)
+
+To support forensic reliability, PawTrace automatically generates
+hashes.
+
+  Artifact       Integrity
+  -------------- -----------
+  JSON Dataset   SHA256
+  Graph Image    SHA256
+
+This ensures exported data has **not been modified**.
+
+------------------------------------------------------------------------
+
+### 📁 Exportable Dataset
+
+Mouse sessions can be exported as structured JSON.
+
+Example:
+
+``` json
+{
+  "start_time": "2026-03-14 21:15:03",
+  "end_time": "2026-03-14 21:15:15",
+  "points": [
+    [921, 534, 0.001],
+    [923, 536, 0.006]
+  ]
+}
+```
+
+This dataset can be reused for:
+
+-   Machine learning experiments
+-   Behavioral research
+-   Replay sessions
+
+------------------------------------------------------------------------
+
+### 🧾 Automated PDF Report
+
+PawTrace generates a forensic-style report including:
+
+-   Case ID
+-   Investigator
+-   Recording metadata
+-   Movement statistics
+-   Evidence hashes
+-   Movement graph
+
+Output example:
+
+    pawtrace_report.pdf
+
+------------------------------------------------------------------------
+
+## 🖥 GUI Interface
+
+PawTrace includes a simple graphical interface built with **Tkinter**.
+
+Main controls:
+
+    ▶ Start Recording
+    ⏹ Stop Recording
+    💾 Export Recording
+    📂 Load Recording
+    🎬 Replay Animation
+
+Live monitoring shows:
+
+-   Recording status
+-   Points captured
+-   Recording duration
+-   Real-time cursor speed
+
+------------------------------------------------------------------------
+
+## ⚙️ Installation
+
+### 1️⃣ Clone Repository
+
+``` bash
+git clone https://github.com/yourusername/PawTrace.git
+cd PawTrace
+```
+
+### 2️⃣ Install Dependencies
+
+``` bash
+pip install pynput pygame matplotlib reportlab
+```
+
+### 3️⃣ Run PawTrace
+
+``` bash
+python PawTrace.py
+```
+
+------------------------------------------------------------------------
+
+## 🧰 Technology Stack
+
+  Technology   Purpose
+  ------------ ----------------------------
+  Python       Core language
+  Tkinter      GUI interface
+  Pynput       Mouse tracking
+  Matplotlib   Movement visualization
+  Pygame       Replay animation
+  ReportLab    PDF report generation
+  Hashlib      Evidence integrity hashing
+
+------------------------------------------------------------------------
+
+## 🧪 Example Use Cases
+
+**Digital Forensics Demonstrations**\
+Reconstruct cursor activity during investigations.
+
+**Bot Detection Research**\
+Analyze human vs automated cursor patterns.
+
+**Human Computer Interaction Studies**\
+Study behavioral movement patterns.
+
+**Cybersecurity Education**\
+Demonstrate behavioral evidence analysis.
+
+------------------------------------------------------------------------
+
+## 📂 Project Structure
+
+    PawTrace/
+    │
+    ├── PawTrace.py
+    ├── pawtrace_result.png
+    ├── pawtrace_report.pdf
+    ├── recordings/
+    │
+    ├── assets/
+    │   ├── icon.ico
+    │   └── logo.png
+    │
+    └── README.md
+
+------------------------------------------------------------------------
+
+## 🔒 Ethical Use
+
+PawTrace is designed for:
+
+-   educational use
+-   behavioral research
+-   cybersecurity demonstrations
+
+Always inform users before recording behavioral activity.
+
+------------------------------------------------------------------------
+
+## 👩‍💻 Author
+
+**Shouq**\
+Cybercrime & Advanced Digital Forensics
+
+Interests:
+
+-   Digital Forensics
+-   Behavioral Analysis
+-   Threat Detection
+-   Security Research
+
+------------------------------------------------------------------------
+
+## ⭐ Support
+
+If you find PawTrace useful:
+
+⭐ Star the repository\
+🍴 Fork the project\
+🛠 Contribute improvements
+
+------------------------------------------------------------------------
+
+# 🐾 PawTrace
+
+*"Every movement tells a story."*
