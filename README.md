@@ -17,9 +17,9 @@ digital evidence.
 The tool captures cursor activity, analyzes movement behavior, and
 generates structured outputs including:
 
--   📊 Movement analytics\
--   🎬 Replay visualization\
--   🧾 Forensic-style PDF reports\
+-   📊 Movement analytics
+-   🎬 Replay visualization
+-   🧾 Forensic-style PDF reports
 -   🔐 Evidence integrity hashes (SHA256)
 
 This makes PawTrace useful for:
