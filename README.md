@@ -195,7 +195,8 @@ python PawTrace.py
 ------------------------------------------------------------------------
 
 ## 🧰 Tech Stack
-
+<div align="center">
+  
 | Technology | Purpose |
 |------------|---------|
 | Python | Core language |
@@ -204,6 +205,8 @@ python PawTrace.py
 | Pygame | Animation replay |
 | Matplotlib | Movement graph |
 | ReportLab | PDF generation |
+
+</div>
 
 ------------------------------------------------------------------------
 
