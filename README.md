@@ -176,7 +176,7 @@ Live monitoring shows:
 ### 1️⃣ Clone Repository
 
 ``` bash
-git clone https://github.com/yourusername/PawTrace.git
+git clone https://github.com/Shouq-doc0x42/PawTrace.git
 cd PawTrace
 ```
 
@@ -210,34 +210,17 @@ python PawTrace.py
 
 ## 🧪 Example Use Cases
 
-**Digital Forensics Demonstrations**\
+**Digital Forensics Demonstrations**
 Reconstruct cursor activity during investigations.
 
-**Bot Detection Research**\
+**Bot Detection Research**
 Analyze human vs automated cursor patterns.
 
-**Human Computer Interaction Studies**\
+**Human Computer Interaction Studies**
 Study behavioral movement patterns.
 
-**Cybersecurity Education**\
+**Cybersecurity Education**
 Demonstrate behavioral evidence analysis.
-
-------------------------------------------------------------------------
-
-## 📂 Project Structure
-
-    PawTrace/
-    │
-    ├── PawTrace.py
-    ├── pawtrace_result.png
-    ├── pawtrace_report.pdf
-    ├── recordings/
-    │
-    ├── assets/
-    │   ├── icon.ico
-    │   └── logo.png
-    │
-    └── README.md
 
 ------------------------------------------------------------------------
 
@@ -255,7 +238,7 @@ Always inform users before recording behavioral activity.
 
 ## 👩‍💻 Author
 
-**Shouq**\
+**Shouq**
 Cybercrime & Advanced Digital Forensics
 
 Interests:
@@ -271,12 +254,12 @@ Interests:
 
 If you find PawTrace useful:
 
-⭐ Star the repository\
-🍴 Fork the project\
+⭐ Star the repository
+🍴 Fork the project
 🛠 Contribute improvements
 
 ------------------------------------------------------------------------
 
-# 🐾 PawTrace
+## 🐾 PawTrace
 
 *"Every movement tells a story."*
