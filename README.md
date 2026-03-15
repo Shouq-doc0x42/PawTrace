@@ -194,17 +194,16 @@ python PawTrace.py
 
 ------------------------------------------------------------------------
 
-## 🧰 Technology Stack
+## 🧰 Tech Stack
 
-  Technology   Purpose
-  ------------ ----------------------------
-  Python       Core language
-  Tkinter      GUI interface
-  Pynput       Mouse tracking
-  Matplotlib   Movement visualization
-  Pygame       Replay animation
-  ReportLab    PDF report generation
-  Hashlib      Evidence integrity hashing
+| Technology | Purpose |
+|------------|---------|
+| Python | Core language |
+| Tkinter | GUI |
+| Pynput | Mouse tracking |
+| Pygame | Animation replay |
+| Matplotlib | Movement graph |
+| ReportLab | PDF generation |
 
 ------------------------------------------------------------------------
 
