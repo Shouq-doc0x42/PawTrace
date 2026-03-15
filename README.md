@@ -261,7 +261,8 @@ If you find PawTrace useful:
 🛠 Contribute improvements\
 
 ------------------------------------------------------------------------
-
+<div align="center">
 ## 🐾 PawTrace
 
 *"Every movement tells a story."*
+</div>
